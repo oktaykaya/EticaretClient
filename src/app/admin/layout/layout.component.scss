@@ -1,0 +1,36 @@
+.admin-container {
+    width: auto;
+    height:100vh;
+    margin: 10px;
+    border: 1px solid #555;
+    /* The background property is added to clearly distinguish the borders between drawer and main
+       content */
+    background: #eee;
+  }
+  .admin-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  mat-drawer-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 1; /* İçeriğin kalan kısmını doldurması için */
+  }
+  
+  .top-sidebar {
+    width: 100%;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
